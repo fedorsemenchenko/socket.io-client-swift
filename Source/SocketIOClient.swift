@@ -97,7 +97,7 @@ public final class SocketIOClient: NSObject, SocketEngineClient, SocketParsable 
             }
         }
         
-        self.options.insertIgnore(.Path("/socket.io/"))
+        self.options.insertIgnore(.Path("/chat/socket.io/"))
         
         super.init()
     }
